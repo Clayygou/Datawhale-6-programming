@@ -30,7 +30,13 @@
 
 6、[实现求链表的中间结点](https://github.com/Clayygou/Datawhale-6-programming/blob/master/Task1/%E9%93%BE%E8%A1%A8/4%E3%80%81%E5%AE%9E%E7%8E%B0%E6%B1%82%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9.md)
 ### [Test2](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task2)
+#### [哈希表](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task2/%E5%93%88%E5%B8%8C%E8%A1%A8) 
+#### [字符串](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task2/%E5%AD%97%E7%AC%A6%E4%B8%B2)
+#### [数组](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task2/%E6%95%B0%E7%BB%84)
 
 ### [Test3](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task3)
-
-### [Test4](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task4)
+#### [二分查找](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task3/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
+#### [排序算法](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task3/%E6%8E%92%E5%BA%8F)
+### [Test4/散列表（哈希表)](https://github.com/Clayygou/Datawhale-6-programming/tree/master/Task4)
+#### [1、实现一个基于链表法解决冲突问题的散列表](https://github.com/Clayygou/Datawhale-6-programming/blob/master/Task4/%E6%95%A3%E5%88%97%E8%A1%A8%EF%BC%88%E5%93%88%E5%B8%8C%E8%A1%A8%EF%BC%89/1%E3%80%81%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8%E6%B3%95%E8%A7%A3%E5%86%B3%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E7%9A%84%E6%95%A3%E5%88%97%E8%A1%A8.md)
+#### [2、实现一个 LRU 缓存淘汰算法](https://github.com/Clayygou/Datawhale-6-programming/blob/master/Task4/%E6%95%A3%E5%88%97%E8%A1%A8%EF%BC%88%E5%93%88%E5%B8%8C%E8%A1%A8%EF%BC%89/2%E3%80%81%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%20LRU%20%E7%BC%93%E5%AD%98%E6%B7%98%E6%B1%B0%E7%AE%97%E6%B3%95.md)
