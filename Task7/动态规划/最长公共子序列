@@ -1,0 +1,43 @@
+##最长公共子序列
+
+顾名思义，找到两个字符串中最长的相等的序列。
+
+### 代码
+```p
+
+
+# 最长公共子串 python3
+word_a = "vesista"
+word_b = "hsis"
+
+def sim_count(word_a,word_b):
+    cell = [ [ 0 for x in range(len(word_b)) ] for y in range(len(word_a)) ] #初始化网格，全部赋值0
+    for i in range(len(word_a)):
+        for j in range(len(word_b)): 
+            if word_a[i] == word_b[j] and (i < 1 or j < 1):
+                cell[i][j] = 1 #判断第一格的值
+            elif word_a[i] == word_b[j]:
+                cell[i][j]=cell[i-1][j-1]+1 #根据第一格累加
+    sim_atline = max(cell)
+    sim_last_word = max(sim_atline)
+    sim_last_word_i = cell.index(sim_atline)
+    for i in range(sim_last_word_i-sim_last_word+1,sim_last_word_i+1):
+        print(word_a[i],end=",")
+    return cell,sim_last_word
+ 
+mat,sim_len = sim_count(word_a,word_b)
+print(sim_len)   # 3
+for i in mat:
+    print(i,'')
+
+"""
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 1, 0, 1]
+[0, 0, 2, 0]
+[0, 1, 0, 3]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+"""
+```
+### 总结
